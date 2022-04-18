@@ -11,5 +11,8 @@
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
 
+# Ignore the workspace file so it can be used to locally override unpublished modules
+*.work
+
 # Dependency directories (remove the comment below to include it)
 # vendor/
